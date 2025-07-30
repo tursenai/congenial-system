@@ -30,7 +30,7 @@ pub fn main() anyerror!void {
         rl.beginDrawing();
         defer rl.endDrawing();
 
-        rl.clearBackground(.white);
+        rl.clearBackground(.black);
 
         rl.drawText("Congrats! You created your first window!", 190, 200, 20, .light_gray);
     }
